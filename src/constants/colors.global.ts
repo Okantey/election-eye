@@ -1,1 +1,3 @@
-const colors: Record<string, string> = {};
+export const colors: Record<string, string> = {
+  white: "#fff",
+};
