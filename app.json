@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "election-eye",
+    "scheme": "election-eye",
     "slug": "election-eye",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,6 +29,9 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
